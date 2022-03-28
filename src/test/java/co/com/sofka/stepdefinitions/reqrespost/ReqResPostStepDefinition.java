@@ -1,4 +1,4 @@
-package co.com.sofka.stepdefinitions.reqres;
+package co.com.sofka.stepdefinitions.reqrespost;
 
 import co.com.sofka.stepdefinitions.setup.BaseResources;
 import co.com.sofka.util.ContentBody;
@@ -21,7 +21,6 @@ import org.apache.http.HttpStatus;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
 
@@ -35,7 +34,7 @@ public class ReqResPostStepDefinition extends BaseResources {
     @Given("que el cliente entro a la pagina.")
     public void queElClienteEntroALaPagina() {
         PropertyConfigurator.configure(USER_DIR.getValue() + LOG4J_PROPERTIES_FILE_PATH.getValue());
-        actor.whoCan(CallAnApi.at(BASE_URI));
+        actor.whoCan(CallAnApi.at(BASE_REQRES));
         headers.put("Content-Type", "application/json");
         bodyRequest = ContentBody.JSONBODY.getValue();
         bodyRequest2 = ContentBody.JSONBODYWITHOUPASSWORD.getValue();

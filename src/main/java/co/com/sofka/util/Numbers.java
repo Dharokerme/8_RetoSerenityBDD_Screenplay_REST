@@ -13,6 +13,7 @@ public enum Numbers {
     NINE(9),
     TEN(10),
     TWENTY(20),
+    TWENTYTHREE(23),
     THIRTY(30),
     THOUSAND(1000);
 

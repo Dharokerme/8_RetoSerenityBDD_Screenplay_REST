@@ -1,4 +1,4 @@
-package co.com.sofka.runners.reqres;
+package co.com.sofka.runners.reqrespost;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/reqres/reqres-post.feature"},
-        glue = "stepdefinitions.reqres",
+        glue = "stepdefinitions.reqrespost",
         plugin = {"pretty", "html:target/cucumber-reports"}
 )
 public class ReqResPostTestRunner {

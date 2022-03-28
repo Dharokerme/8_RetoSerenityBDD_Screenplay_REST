@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Ver información de un usuario" skipped="0" tests="2" time="4.92" timestamp="2022-03-27 07:36:08"><testcase name="Visualizar informacion de un usuario"/><testcase name="Visualizar informacion de un usuario inexistente"><failure message="&#10;Expected: (null or an empty string)&#10;     but: was &quot;{\n    \n}&quot;" type="java.lang.AssertionError">
+Expected: (null or an empty string)
+     but: was "{\n    \n}"</failure><system-err>
+Expected: (null or an empty string)
+     but: was "{\n    \n}"&#13;
+co.com.sofka.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorNoVisualizaInformacion(ReqResGetStepDefinition.java:75)&#13;
+✽.el administrador no visualiza informacion.(file:///D:/15_RetoSerenityBDD_Screenplay_REST/src/test/resources/features/reqres/reqres-get.feature:15)&#13;
+</system-err></testcase></testsuite>

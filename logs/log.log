@@ -1,1 +1,28 @@
-[2022-03-27 05:27:35][INFO ] [ReqResPostStepDefinition:18] Se inicio el proceso de creacion de usuario
+[2022-03-27 05:27:35][INFO ] [ReqResPostStepDefinition:18] Se inicio el proceso de creacion de usuario[2022-03-27 19:06:04][INFO ] [ReqResPostStepDefinition:41] {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+[2022-03-27 19:06:04][INFO ] [ReqResPostStepDefinition:42] {
+    "email": "eve.holt@reqres.in",
+}
+[2022-03-27 19:06:04][INFO ] [ReqResPostStepDefinition:41] {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+[2022-03-27 19:06:04][INFO ] [ReqResPostStepDefinition:42] {
+    "email": "eve.holt@reqres.in",
+}
+[2022-03-27 19:06:57][INFO ] [ReqResPostStepDefinition:41] {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+[2022-03-27 19:06:57][INFO ] [ReqResPostStepDefinition:42] {
+    "email": "eve.holt@reqres.in",
+}
+[2022-03-27 19:06:58][INFO ] [ReqResPostStepDefinition:41] {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+[2022-03-27 19:06:58][INFO ] [ReqResPostStepDefinition:42] {
+    "email": "eve.holt@reqres.in",
+}
