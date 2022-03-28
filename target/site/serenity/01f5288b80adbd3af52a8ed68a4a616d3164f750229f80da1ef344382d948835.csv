@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Registro de usuario","Registro exitoso","SUCCESS","2022-03-27T07:18:58.515-05:00[America/Bogota]","0.0","4.28"
-"Registro de usuario","Registro fallido","SUCCESS","2022-03-27T07:19:02.812-05:00[America/Bogota]","0.0","0.81"
+"Ver información de un usuario","Visualizar informacion de un usuario","SUCCESS","2022-03-27T19:36:08.121-05:00[America/Bogota]","0.0","4.16"
+"Ver información de un usuario","Visualizar informacion de un usuario inexistente","SUCCESS","2022-03-27T20:36:33.767-05:00[America/Bogota]","0.0","5.01"
+"Registro de usuario","Registro exitoso","SUCCESS","2022-03-27T19:06:57.855-05:00[America/Bogota]","0.0","0.81"
+"Registro de usuario","Registro fallido","SUCCESS","2022-03-27T19:06:58.674-05:00[America/Bogota]","0.0","0.75"
