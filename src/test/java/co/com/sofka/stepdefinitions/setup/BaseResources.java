@@ -6,3 +6,5 @@ public class BaseResources {
     protected static final String POST_REGISTER_RESOURCE = "/api/register";
 }
 
+
+
