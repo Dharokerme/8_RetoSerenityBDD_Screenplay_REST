@@ -82,3 +82,17 @@
 [2022-04-06 18:06:36][INFO ] [ReqResPostStepDefinition:42] {
     "email": "eve.holt@reqres.in",
 }
+[2022-04-07 19:04:28][INFO ] [ReqResPostStepDefinition:41] {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+[2022-04-07 19:04:28][INFO ] [ReqResPostStepDefinition:42] {
+    "email": "eve.holt@reqres.in",
+}
+[2022-04-07 19:04:29][INFO ] [ReqResPostStepDefinition:41] {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+[2022-04-07 19:04:29][INFO ] [ReqResPostStepDefinition:42] {
+    "email": "eve.holt@reqres.in",
+}
