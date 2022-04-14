@@ -1,75 +1,75 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/reqres/reqres-post.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/reqres/reqres-get.feature");
 formatter.feature({
-  "name": "Registro de usuario",
-  "description": "  como nuevo usuario de la pagina\n  quiero registrarme\n  para hacer transacciones",
+  "name": "Ver información de un usuario",
+  "description": "  Como administrador de la pagina\n  quiero ver información de un usuario\n  para mantener un registro de usuarios",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Registro exitoso",
+  "name": "Visualizar informacion de un usuario",
   "description": "",
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "que el cliente entro a la pagina.",
+  "name": "el administrador ingresa a la pagina",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "co.com.sofka.stepdefinitions.reqrespost.ReqResPostStepDefinition.queElClienteEntroALaPagina()"
+  "location": "co.com.reqres.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorIngresaALaPagina()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "crea un usuario.",
+  "name": "el administrador ingresa el id del usuario",
   "keyword": "When "
 });
 formatter.match({
-  "location": "co.com.sofka.stepdefinitions.reqrespost.ReqResPostStepDefinition.creaUnUsuario()"
+  "location": "co.com.reqres.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorIngresaElIdDelUsuario()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "obtendra un token de autenticacion.",
+  "name": "el administrador visualiza la informacion del usuario",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "co.com.sofka.stepdefinitions.reqrespost.ReqResPostStepDefinition.obtendraUnTokenDeAutenticacion()"
+  "location": "co.com.reqres.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorVisualizaLaInformacionDelUsuario()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Registro fallido",
+  "name": "Visualizar informacion de un usuario inexistente",
   "description": "",
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "que el cliente entro a la pagina.",
+  "name": "el administrador ingresa a la pagina",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "co.com.sofka.stepdefinitions.reqrespost.ReqResPostStepDefinition.queElClienteEntroALaPagina()"
+  "location": "co.com.reqres.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorIngresaALaPagina()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "crea un usuario sin contrasena.",
+  "name": "el administrador ingresa el id del usuario inexistente",
   "keyword": "When "
 });
 formatter.match({
-  "location": "co.com.sofka.stepdefinitions.reqrespost.ReqResPostStepDefinition.creaUnUsuarioSinContrasena()"
+  "location": "co.com.reqres.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorIngresaElIdDelUsuarioInexistente()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "recibira un mensaje de error",
+  "name": "el administrador no visualiza informacion.",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "co.com.sofka.stepdefinitions.reqrespost.ReqResPostStepDefinition.recibiraUnMensajeDeError()"
+  "location": "co.com.reqres.stepdefinitions.reqresget.ReqResGetStepDefinition.elAdministradorNoVisualizaInformacion()"
 });
 formatter.result({
   "status": "passed"

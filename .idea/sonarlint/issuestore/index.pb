@@ -1,10 +1,4 @@
 
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-7
-gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
-;
-gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 [
 +target/cucumber-reports/jquery-3.4.1.min.js,c\8\c846b1d81f4b4bcb95103a65817dbfbe724fb044
 Q
@@ -21,8 +15,6 @@ P
  target/site/serenity/summary.txt,2\4\24f805f7544b0d7ef191e6a0a652fbb851b6a4ac
 ‰
 Ytarget/site/serenity/8ef691e3b50576e60c2feb0b98bb1bb1a4c8b4856547dc6de76854167ec1ca95.csv,4\e\4e34914fefd8320e3cf956f432cde7b14fc803e1
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 ‰
 Ytarget/site/serenity/b50e974eccb932c7d3d0f0f974151644c4f4c16d53dc87411b9ac541da9a87c5.csv,8\6\86cce06465c84d0e6a3120940ee581f1b9656d4e
 ‰
@@ -65,13 +57,3 @@ V
 &target/site/serenity/capabilities.html,6\8\681a75fdaaa28785dfe5cfd3ffc6f68161723185
 Š
 Ztarget/site/serenity/fe241bad736de008862dd8004c2bb2098d708e99370146222dd58f1df07d6757.html,0\c\0ce7138bb71a10685ebd3a68d8bd7fed5e173594
-Q
-!target/cucumber-reports/report.js,7\b\7bcc296ad6713be036cdecffa3abbe41f209be21
-O
-target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
-a
-1src/main/java/co/com/sofka/question/Response.java,5\7\57730e6fe2a9dcb8139e011ad5ce91d63706efe3
-Z
-*src/main/java/co/com/sofka/task/DoGet.java,f\0\f0c8128a4ee4ac376d53eaf30bdc6cd1ddaf844d
-[
-+src/main/java/co/com/sofka/task/DoPost.java,d\6\d63c175f7fe48985049c056e0017da27563569d3

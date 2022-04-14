@@ -1,5 +1,5 @@
 
-group 'co.com.sofka'
+group 'in.reqres'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
